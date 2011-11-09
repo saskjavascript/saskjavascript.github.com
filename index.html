@@ -51,65 +51,132 @@
             <a href="http://www.facebook.com/groups/saskjavascript/" class="btn primary large">Join our Facebook Group</a>
           </p>        
       </div>
-
-      <div class="row">
-        <div class="span-one-third">
-          <h2>Jasmine BDD</h2>
-          <p>
-            <em>Unit Testing.</em> 
-            It's that thing that none of us like to do (especially front-end developers). 
-            Why? Because it's traditionally been hard and there aren't a lot of good resources to teach us how.
-          </p>
-          <p>At Sask JavaScript you'll learn how to use JasmineBDD to effectively unit test JavaScript.</p>
-          <p><a class="btn" href="http://pivotal.github.com/jasmine/">View details &raquo;</a></p>
-        </div>
-        <div class="span-one-third">
-          <h2>jQuery</h2>
-          <p>
-            <em>The Library we love to hate.</em>
-            jQuery is great at DOM manipulation but far too often it is used as a <em>framework</em> instead of a <em>library</em>.
-            We think that's a mistake.
-          </p>
-          <p>
-            Come out to our meetings and you can expect to learn how to use jQuery the right way.
-          </p>
-          <p><a class="btn" href="http://www.jquery.com">View details &raquo;</a></p>
-       </div>
-        <div class="span-one-third">
-          <h2>YUI</h2>
-          <p><em>The Yahoo User Interface</em> is a well-documented, full-featured front-end library that is commonly misunderstood.</p>
-          <p>Some of our members have built entire applications on top of YUI. Come out every second Tuesday night and learn how.</p>
-          <p><a class="btn" href="http://developer.yahoo.com/yui/">View details &raquo;</a></p>
-        </div>
-      </div>
       
       <div class="row">
-        <div class="span-one-third">
-          <h2>Underscore</h2>
-          <p>
-            <em>The Front-End Developers 'swiss-army knife'.</em>
-            Underscore.JS is a library that should exist in any front-end developers toolbox.
-          </p>
-          <p><a class="btn" href="http://documentcloud.github.com/underscore/">View details &raquo;</a></p>
+        <div class="span10">
+          <div class="page-header">
+            <h1>Where? When? <small>(I need details, yo!)</small></h1>
+          </div>
+          <span class="label warning">Next Meeting</span>
+          <div class="row">
+            <div class="span5">
+              <h3>Where</h3>
+              <address>
+                <strong>The Atrium Building, Room 260</strong><br>
+                111 Research Drive<br>
+                Saskatoon, SK<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890
+              </address>
+            </div>
+            <div class="span5">
+              <h3>When</h3>
+              <p><strong>Tuesday, November 15th, 2011</strong></p>
+              <p>6:30pm - 8:30pm</p>
+              <a href="http://www.facebook.com/event.php?eid=255824661131267" class="btn success">Sign Up to Attend!</a>
+            </div>
+          </div>
+          <iframe width="580" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=111+Research+Drive,+Saskatoon,+Saskatchewan,+Canada&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=81.319613,79.013672&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=111+Research+Dr,+Saskatoon,+Saskatchewan+S7N+3R2,+Canada&amp;t=m&amp;z=14&amp;ll=52.14196,-106.628524&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=111+Research+Drive,+Saskatoon,+Saskatchewan,+Canada&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=81.319613,79.013672&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=111+Research+Dr,+Saskatoon,+Saskatchewan+S7N+3R2,+Canada&amp;t=m&amp;z=14&amp;ll=52.14196,-106.628524" style="color:#0000FF;text-align:left">View Larger Map</a></small>
         </div>
-        <div class="span-one-third">
-          <h2>Backbone</h2>
-          <p>
-             <em>Client-Side Web Applications.</em>
-             Backbone makes writing them very easy and allows you separate your data from the DOM.
-          </p>
-          <p><a class="btn" href="http://documentcloud.github.com/backbone/">View details &raquo;</a></p>
-       </div>
-        <div class="span-one-third">
-          <h2>CoffeeScript</h2>
-          <p>
-            <em>A step-change.</em>
-            CoffeeScript represents a significant shift in the world of front-end development. Part Ruby, part Python, all awesome.
-          </p>
-          <p><a class="btn" href="http://jashkenas.github.com/coffee-script/">View details &raquo;</a></p>
+        
+        <div class="span5 offset1">
+          <div class="page-header">
+            <h1>Latest Tweets</h1>
+          </div>
+          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+          new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 5,
+            interval: 30000,
+            width: 'auto',
+            height: 400,
+            theme: {
+              shell: {
+                background: '#f5f5f5',
+                color: '#040404'
+              },
+              tweets: {
+                background: '#ffffff',
+                color: '#040404',
+                links: '#00704b'
+              }
+            },
+            features: {
+              scrollbar: true,
+              loop: false,
+              live: true,
+              behavior: 'all'
+            }
+          }).render().setUser('saskjavascript').start();
+          </script>
         </div>
       </div>
+      <hr/>
+      <div class="row">
+        <div class="span16">
+          <div class="row">
+            <div class="span-one-third">
+              <h2>Jasmine BDD</h2>
+              <p>
+                <em>Unit Testing.</em> 
+                It's that thing that none of us like to do (especially front-end developers). 
+                Why? Because it's traditionally been hard and there aren't a lot of good resources to teach us how.
+              </p>
+              <p>At Sask JavaScript you'll learn how to use JasmineBDD to effectively unit test JavaScript.</p>
+              <p><a class="btn" href="http://pivotal.github.com/jasmine/">View details &raquo;</a></p>
+            </div>
+            <div class="span-one-third">
+              <h2>jQuery</h2>
+              <p>
+                <em>The Library we love to hate.</em>
+                jQuery is great at DOM manipulation but far too often it is used as a <em>framework</em> instead of a <em>library</em>.
+                We think that's a mistake.
+              </p>
+              <p>
+                Come out to our meetings and you can expect to learn how to use jQuery the right way.
+              </p>
+              <p><a class="btn" href="http://www.jquery.com">View details &raquo;</a></p>
+            </div>
+            <div class="span-one-third">
+              <h2>YUI</h2>
+              <p><em>The Yahoo User Interface</em> is a well-documented, full-featured front-end library that is commonly misunderstood.</p>
+              <p>Some of our members have built entire applications on top of YUI. Come out every second Tuesday night and learn how.</p>
+              <p><a class="btn" href="http://developer.yahoo.com/yui/">View details &raquo;</a></p>
+            </div>
+          </div>
+          <hr/>
+          <div class="row">
+            <div class="span-one-third">
+              <h2>Underscore</h2>
+              <p>
+                <em>The Front-End Developers 'swiss-army knife'.</em>
+                Underscore.JS is a library that should exist in any front-end developers toolbox.
+              </p>
+              <p><a class="btn" href="http://documentcloud.github.com/underscore/">View details &raquo;</a></p>
+            </div>
+            <div class="span-one-third">
+              <h2>Backbone</h2>
+              <p>
+                 <em>Client-Side Web Applications.</em>
+                 Backbone makes writing them very easy and allows you separate your data from the DOM.
+              </p>
+              <p><a class="btn" href="http://documentcloud.github.com/backbone/">View details &raquo;</a></p>
+            </div>
+            <div class="span-one-third">
+              <h2>CoffeeScript</h2>
+               <p>
+                 <em>A step-change.</em>
+                 CoffeeScript represents a significant shift in the world of front-end development. Part Ruby, part Python, all awesome.
+               </p>
+               <p><a class="btn" href="http://jashkenas.github.com/coffee-script/">View details &raquo;</a></p>
+            </div>
+          </div>
+          <div class="row">
 
+          </div>
+        </div>
+      </div>
       <footer>
         <p>&copy; SaskJavaScript 2011</p>
       </footer>
