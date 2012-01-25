@@ -2361,4 +2361,25 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
-/*@import "skjs-theme.less";*/
+.topbar .container {
+  position: relative;
+}
+.topbar .container .sponsor {
+  position: absolute;
+  right: 127px;
+  top: -1px;
+  color: #808080;
+}
+.topbar .container .sponsor-img {
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  background: white;
+  padding: 3px 7px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.topbar .container .sponsor-img img {
+  height: 20px;
+}
